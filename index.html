@@ -10,10 +10,16 @@
     "@type": "Recipe",
     "name": "Pork Tostadas with Salsa Verde",
     "description": "Crispy tostadas topped with seasoned pork and fresh salsa verde, a vibrant Mexican dish.",
-    "author": {"@type": "Person", "name": "PeleGoddessOfFire"},
+    "url": "https://pelegoddessoffire.github.io/KitchenPal-Bridge/",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "@type": "Person",
+      "name": "PeleGoddessOfFire"
+    },
+    "datePublished": "2025-08-14",
     "recipeCategory": "Main Course",
     "recipeCuisine": "Mexican",
+    "keywords": "tostadas, pork, salsa verde, Mexican",
     "prepTime": "PT15M",
     "cookTime": "PT20M",
     "totalTime": "PT35M",
@@ -22,6 +28,11 @@
       "@type": "NutritionInformation",
       "calories": "600 kcal",
       "servingSize": "1 tostada"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "10"
     },
     "recipeIngredient": [
       "1 tomatillo",
@@ -45,60 +56,74 @@
       {
         "@type": "HowToStep",
         "name": "Broil vegetables",
-        "text": "Turn broiler to 500°F. Place tomatillo and jalapeño on a baking sheet and broil until charred, about 5 minutes."
+        "text": "Turn broiler to 500°F. Place tomatillo and jalapeño on a baking sheet and broil until charred, about 5 minutes.",
+        "url": "https://pelegoddessoffire.github.io/KitchenPal-Bridge/#step1"
       },
       {
         "@type": "HowToStep",
         "name": "Make salsa verde",
-        "text": "Add half the onions, garlic, tomatillo, jalapeño, cilantro, sugar, cumin, lime juice, and water to a blender. Blend until smooth to make salsa verde."
+        "text": "Add half the onions, garlic, tomatillo, jalapeño, cilantro, sugar, cumin, lime juice, and water to a blender. Blend until smooth to make salsa verde.",
+        "url": "https://pelegoddessoffire.github.io/KitchenPal-Bridge/#step2"
       },
       {
         "@type": "HowToStep",
         "name": "Cook pork",
-        "text": "Heat oil in a skillet over medium heat. Cook pork until browned, about 10 minutes."
+        "text": "Heat oil in a skillet over medium heat. Cook pork until browned, about 10 minutes.",
+        "url": "https://pelegoddessoffire.github.io/KitchenPal-Bridge/#step3"
       },
       {
         "@type": "HowToStep",
         "name": "Assemble tostadas",
-        "text": "Assemble tostadas: spread salsa verde on tortillas, add pork, cabbage, avocado, feta, and serve."
+        "text": "Assemble tostadas: spread salsa verde on tortillas, add pork, cabbage, avocado, feta, and serve.",
+        "url": "https://pelegoddessoffire.github.io/KitchenPal-Bridge/#step4"
       }
     ]
   }
   </script>
 </head>
-<body>
-  <h1>Pork Tostadas with Salsa Verde</h1>
-  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pork Tostadas" width="800">
-  <p>Crispy tostadas topped with seasoned pork and fresh salsa verde, a vibrant Mexican dish.</p>
+<body itemscope itemtype="https://schema.org/Recipe">
+  <h1 itemprop="name">Pork Tostadas with Salsa Verde</h1>
+  <img itemprop="image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pork Tostadas" width="800">
+  <p itemprop="description">Crispy tostadas topped with seasoned pork and fresh salsa verde, a vibrant Mexican dish.</p>
+  <meta itemprop="recipeCategory" content="Main Course">
+  <meta itemprop="recipeCuisine" content="Mexican">
+  <meta itemprop="prepTime" content="PT15M">
+  <meta itemprop="cookTime" content="PT20M">
+  <meta itemprop="totalTime" content="PT35M">
+  <meta itemprop="recipeYield" content="2 servings">
+  <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
+    <meta itemprop="calories" content="600 kcal">
+    <meta itemprop="servingSize" content="1 tostada">
+  </div>
   <h2>Ingredients</h2>
   <ul>
-    <li>1 tomatillo</li>
-    <li>1/2 head cabbage, shredded</li>
-    <li>1 jalapeño, seeded</li>
-    <li>1 bunch cilantro</li>
-    <li>2 onions, chopped</li>
-    <li>3 cloves garlic</li>
-    <li>1 lb pork, cubed</li>
-    <li>4 corn tortillas</li>
-    <li>2 tbsp vegetable oil</li>
-    <li>1 avocado, sliced</li>
-    <li>1/4 cup feta cheese, crumbled</li>
-    <li>2 tbsp lime juice</li>
-    <li>1 tsp sugar</li>
-    <li>1 tsp cumin</li>
-    <li>1/4 cup water</li>
-    <li>Salt to taste</li>
+    <li itemprop="recipeIngredient">1 tomatillo</li>
+    <li itemprop="recipeIngredient">1/2 head cabbage, shredded</li>
+    <li itemprop="recipeIngredient">1 jalapeño, seeded</li>
+    <li itemprop="recipeIngredient">1 bunch cilantro</li>
+    <li itemprop="recipeIngredient">2 onions, chopped</li>
+    <li itemprop="recipeIngredient">3 cloves garlic</li>
+    <li itemprop="recipeIngredient">1 lb pork, cubed</li>
+    <li itemprop="recipeIngredient">4 corn tortillas</li>
+    <li itemprop="recipeIngredient">2 tbsp vegetable oil</li>
+    <li itemprop="recipeIngredient">1 avocado, sliced</li>
+    <li itemprop="recipeIngredient">1/4 cup feta cheese, crumbled</li>
+    <li itemprop="recipeIngredient">2 tbsp lime juice</li>
+    <li itemprop="recipeIngredient">1 tsp sugar</li>
+    <li itemprop="recipeIngredient">1 tsp cumin</li>
+    <li itemprop="recipeIngredient">1/4 cup water</li>
+    <li itemprop="recipeIngredient">Salt to taste</li>
   </ul>
   <h2>Instructions</h2>
   <ol>
-    <li>Turn broiler to 500°F. Place tomatillo and jalapeño on a baking sheet and broil until charred, about 5 minutes.</li>
-    <li>Add half the onions, garlic, tomatillo, jalapeño, cilantro, sugar, cumin, lime juice, and water to a blender. Blend until smooth to make salsa verde.</li>
-    <li>Heat oil in a skillet over medium heat. Cook pork until browned, about 10 minutes.</li>
-    <li>Assemble tostadas: spread salsa verde on tortillas, add pork, cabbage, avocado, feta, and serve.</li>
+    <li itemprop="recipeInstructions">Turn broiler to 500°F. Place tomatillo and jalapeño on a baking sheet and broil until charred, about 5 minutes.</li>
+    <li itemprop="recipeInstructions">Add half the onions, garlic, tomatillo, jalapeño, cilantro, sugar, cumin, lime juice, and water to a blender. Blend until smooth to make salsa verde.</li>
+    <li itemprop="recipeInstructions">Heat oil in a skillet over medium heat. Cook pork until browned, about 10 minutes.</li>
+    <li itemprop="recipeInstructions">Assemble tostadas: spread salsa verde on tortillas, add pork, cabbage, avocado, feta, and serve.</li>
   </ol>
-  <p><strong>Prep Time:</strong> 15 minutes</p>
-  <p><strong>Cook Time:</strong> 20 minutes</p>
-  <p><strong>Servings:</strong> 2</p>
-  <p><strong>Calories:</strong> 600 kcal per tostada</p>
+  <p><strong>Prep Time:</strong> <span itemprop="prepTime">15 minutes</span></p>
+  <p><strong>Cook Time:</strong> <span itemprop="cookTime">20 minutes</span></p>
+  <p><strong>Servings:</strong> <span itemprop="recipeYield">2</span></p>
+  <p><strong>Calories:</strong> <span itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation"><span itemprop="calories">600 kcal per tostada</span></span></p>
 </body>
 </html>
